@@ -14,6 +14,7 @@ const Home = () => {
   async function requestVideoDetail() {
     try {
       const videoId =  video.replace('https://www.youtube.com/watch?v=', '');
+      setVideo(videoId)
       if (videoId){
         const resp = await fetch(`/api/videoDetail/${videoId}`);
         const videoData = await resp.json();
@@ -25,7 +26,6 @@ const Home = () => {
   }
 
   useEffect(() => {
-    console.log('test');
     requestVideoDetail();
   }, [video]);
 
