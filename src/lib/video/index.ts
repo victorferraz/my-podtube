@@ -1,12 +1,12 @@
 import { Stream } from 'stream';
-import  ytdl from 'ytdl-core';
+import  ytdl, { thumbnail } from 'ytdl-core';
 import { VideoDetails } from './type';
 
 export default class YoutubeDownload {
   constructor(){
   }
 
-  async getThumb(videoUrl: string){
+  async getThumb(videoUrl: string): Promise<{ thumb: thumbnail }> {
     try {
       const res = await ytdl.getInfo(videoUrl);
       return {
