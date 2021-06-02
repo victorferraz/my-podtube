@@ -4,7 +4,7 @@ const Heading = styled.h2`
   font-size: 50px;
   color: white;
   font-weight: 700;
-  padding: 40px;
+  padding: 40px 0;
   text-align: center;
   line-height: 70px;
   color: white;

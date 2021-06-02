@@ -8,8 +8,9 @@ const Wrapper = styled.div`
 `;
 
 const Main = styled.div`
-  max-width: 960px;
+  max-width: 500px;
   margin: 0 auto;
+  padding: 20px;
 `;
 
 const VideoSearchWrapper = styled.div`
@@ -17,7 +18,6 @@ const VideoSearchWrapper = styled.div`
   width: 100%;
   justify-content: center;
   margin: 0 auto;
-  padding: 20px;
 `;
 
 const Video = styled.video`
