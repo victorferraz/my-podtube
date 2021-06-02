@@ -8,14 +8,16 @@ const Wrapper = styled.div`
 `;
 
 const Main = styled.div`
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 `;
 
 const VideoSearchWrapper = styled.div`
   display: flex;
-  width: 500px;
+  width: 100%;
+  justify-content: center;
   margin: 0 auto;
+  padding: 20px;
 `;
 
 const Video = styled.video`
@@ -24,7 +26,7 @@ const Video = styled.video`
 `
 
 const VideoContainer = styled.div`
-  width: 500px;
+  width: 100%;
   margin: 0 auto;
   padding: 40px 0;
 `

@@ -37,7 +37,7 @@ const Home = () => {
     <Ui.Wrapper>
       <Ui.Main>
         <Heading>
-          Informe aqui a Url <br />do seu Video
+          Listen your youtube videos without ads
         </Heading>
         <form>
           <Ui.VideoSearchWrapper>
